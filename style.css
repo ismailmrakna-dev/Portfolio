@@ -37,7 +37,6 @@ span{
 }
 .nav-first{
     flex: 1;
-    padding: 20px;
 }
 .nav_bar{
     margin-top: 30px;
@@ -46,6 +45,8 @@ span{
     justify-content: center;
 }
 .nav_bar a{
+    margin: 0 0;
+    width: 100%;
     font-size: 20px;
     color:white;
     padding: 7px;
@@ -54,16 +55,20 @@ span{
     gap: 7px;
 }
 .nav_bar a:hover{
+    width: 100%;
     background-color:  rgb(9, 56, 211);
 }
 .nav_bar a.active{
+    width: 100%;
     font-weight: 600;
     background-color:  rgb(6, 41, 156);
 }
 .nav_bar a.active:hover{
+    width: 100%;
     background-color: rgb(14, 52, 179);
 }
 .nav-logo{
+    margin-left: 10px;
     display: flex;
     gap: 3px;
     font-size: 14px;
