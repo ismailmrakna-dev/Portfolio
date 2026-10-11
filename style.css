@@ -88,7 +88,7 @@ a {
     margin-top: 9px;
     display: flex;
     flex-wrap: wrap;
-    gap :8px;
+    gap :16px;
 }
 .nav-foot .nav-link a img{
     width: 25px;
@@ -260,4 +260,90 @@ main {
     border: 1px solid rgb(17, 218, 233);
 }
 /*-- contact page -- */
+/*1.formulaire */
 
+.content.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+.send-message{
+    background: url("./images/pcback.jpg");
+    color: rgb(94, 225, 235);
+    border: 1px solid skyblue;
+    padding: 30px;
+    box-shadow: 0 0 4px blue;
+    margin: auto 20px;
+    border-radius: 9px;
+}
+.formulaire{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.formulaire input,textarea, select , button{
+    border-radius: 9px;
+    padding: 5px;
+    background-color: rgb(248, 248, 232);
+    width: 100%;
+}
+.formulaire button{
+    color: aliceblue;
+    font-weight: 600;
+    background-color: rgb(28, 128, 241);
+}
+.formulaire h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 140, 255);
+}
+/*2. contact reseaux */
+.reseaux-social{
+    margin-left: 10px;
+}
+.reseaux-social h3{
+    color: blue;
+    font-size: 11px;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.reseaux-social h1{
+    font-weight: 800;
+}
+.reseaux-social h1 span{
+    color: blue;
+    font-size: 40px;
+}
+.reseaux-social p {
+    margin: 20px;
+    color: gray;
+    font-size: 20px;
+}
+.contact-me{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom:1px solid skyblue;
+}
+.contact-me h3{
+    font-size: 15px;
+}
+.contact-me p{
+    font-size: 18px;
+}
+.contact-me img{
+    background-color:rgb(191, 230, 248);
+    border-radius: 20px;
+    
+}
+.reseaux-link{
+    margin: 20px 20px;
+    display: flex;
+    gap: 20px;
+}
