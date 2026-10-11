@@ -447,6 +447,9 @@ main {
     font-size: 15px;
     font-weight: 600;
 }
+.about-skills .skill span{
+    text-shadow: none;
+}
 .about-skills label{
     padding: 6px;
     display: flex;
